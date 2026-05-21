@@ -1,42 +1,80 @@
-# Tricky Forest – Puzzle Platformer
-Overview
-Tricky Forest is a strategic 2D puzzle platformer developed as a collaborative University Team Project. Set in an enchanted, ever-changing woodland, the game challenges players to navigate through dense thickets filled with deceptive traps, environmental puzzles, and hidden forest paths. Success in Tricky Forest relies on logical reasoning and environmental awareness, as the forest itself is designed to mislead the player.
+# 🌲 Tricky Forest
 
-Key Features
-Illusory Environment Design: The forest is not what it seems. Hidden passages are camouflaged by foliage, and paths shift based on player interaction.
+A strategic 2D puzzle platformer built with **C++** and **SFML**, developed as a university team project.
 
-Nature-Based Mechanics: Includes puzzles involving growth triggers, vine-swinging physics, and elemental environmental hazards.
+---
 
-Intuitive Controls: Optimized character movement and interaction physics for a seamless platforming experience.
+## 🎮 About the Game
 
-Atmospheric Progression: A curated series of levels that introduce increasingly complex mechanical challenges within a mystical forest setting.
+Navigate through a mysterious enchanted forest filled with traps, puzzles, and hidden paths. Use logic and observation to survive — the forest is designed to mislead you.
 
-Technical Stack
+---
 
-Language:  C++
+## ✨ Features
 
-Graphics: 2D Sprite-based art with dynamic layering for forest depth.
+- 🗺️ **6 Unique Levels** with multiple rooms each
+- 👾 **Enemy AI** — chase, patrol, circular, and static behaviors
+- 🏆 **Boss Fight** in the final level
+- 🔑 **Key & Gate** puzzle mechanics
+- 🔀 **Switch puzzles** with correct-order challenges
+- 💾 **Save system** — progress is saved automatically
+- 🎵 **Background music** and sound effects
 
-Version Control: Managed via Git/GitHub to ensure efficient team synchronization and code integrity.
+---
 
-Team Contribution
-This project was developed by a dedicated team as part of our university curriculum, showcasing our ability to work in a collaborative development environment.
+## 🕹️ Controls
 
-Project Lead: [Abdelrahman_Khaled](https://github.com/DBZ0-dotcom)
+| Action | Keys |
+|--------|------|
+| Move Right | `D` or `→` |
+| Move Left | `A` or `←` |
+| Jump | `W` or `↑` or `Space` |
+| Interact / Pick up | `E` |
+| Pause | `Escape` |
 
-Core Logic & Mechanics: [Ahmed_Arafa](https://github.com/tomato-afk)
+---
 
-Level Design: [Ahmed_Said](https://github.com/ahmedsaidgad1)
+## 🚀 How to Run
 
-UI/UX & Graphics: [mohamed samer](https://github.com/mohamedSameer01)
+### Option 1: Run directly (No setup needed)
+1. Download the latest release from [Releases](../../releases)
+2. Extract the zip
+3. Double-click `Tricky_Forest.exe`
 
-Quality Assurance & Testing: [All team member]
+### Option 2: Build from source
+**Requirements:**
+- Visual Studio 2022
+- SFML 2.6.1 → [Download here](https://www.sfml-dev.org/download.php)
+- CMake 3.16+
 
-How to Play
-Movement: Use WASD or Arrow Keys to move and jump through the canopy.
+**Steps:**
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/ahmedsaidgad1/Tricky_Forest.git
+   ```
+2. Place SFML in `C:/SFML-2.6.1/`
+3. Open the folder in Visual Studio → **File → Open → CMake**
+4. Open `CMakeLists.txt` and set your SFML path
+5. Press `Ctrl+Shift+B` to build
+6. Press ▶ to run
 
-Interaction: Press E or Space to activate forest shrines or interact with items.
+---
 
-Objective: Solve the "Riddles of the Woods" to unlock the path to the next area while avoiding lethal natural traps.
+## 👥 Team
 
-Pro Tip: Look for subtle visual cues in the trees—the forest often whispers the solution to those who observe.
+| Role | Name |
+|------|------|
+| 🎯 Project Lead | [Abdelrahman Khaled](https://github.com/DBZ0-dotcom) |
+| ⚙️ Core Logic & Mechanics | [Ahmed Arafa](https://github.com/tomato-afk) |
+| 🗺️ Level Design | [Ahmed Said](https://github.com/ahmedsaidgad1) |
+| 🎨 UI/UX & Graphics | [Mohamed Samer](https://github.com/mohamedSameer01) |
+| 🧪 Quality Assurance | All Team Members |
+
+---
+
+## 🛠️ Tech Stack
+
+- **Language:** C++17
+- **Graphics & Audio:** SFML 2.6.1
+- **Build System:** CMake
+- **Version Control:** Git / GitHub
